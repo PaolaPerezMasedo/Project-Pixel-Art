@@ -1,0 +1,64 @@
+/*Desired design style like the arcade games from the 80s*/
+
+body {
+    text-align: center;
+    font-family:cambria;
+    background: black;
+    color: 	#00ffff;
+}
+
+h1 {
+    font-family: "astron boy video";
+    font-size: 95px;
+    margin: 0.2em;
+    color: #ff00ff;
+    text-shadow: 6px 2px 	#00ffff;
+}
+
+h2 {
+    margin: 1em 0 0.25em;
+    font-family:"astron boy";
+    color: #ff00ff;
+    font-size: 35px;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid white;    
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+    font-size: 14px;
+
+}
+input[type=submit]{
+ color: #ff00ff;
+
+
+}
+/* this is the button submit hover effect*/
+input[type=submit]:hover {
+  background-color: #ff00ff;
+  color: #00ffff;
+  font-weight: bold;
+  transition: .4s;
+}
