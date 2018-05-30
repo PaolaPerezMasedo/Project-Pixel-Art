@@ -4,13 +4,25 @@
     <meta charset="utf-8"><html>
     <title>Pixel Art Maker!</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
     <link rel="stylesheet" href="styles.css">
-
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+        <link rel="stylesheet prefetch" href="https://fonts.googleapis.com/css?family=Coda">
 </head>
 <body>
     <h1>Lab: Pixel Art Maker</h1>
+
+  <button class ="btnHow">How to play?</button>
+  <div class ="instructions">
+        <div class ="instructions_content">
+        <span class ="instructions_close"type= "button" onclick= "closeInstructions()">&times;</span>
+        <h2>How to play?</h2>
+        <p class = "instructions_text">The player has to first make a grid by clicking in the numbers and the send button<br>
+         Once the grid is done click in "pick a color", pick one and accept<br>
+         After that just start creating! You can choose as many colors as you wish</p>
+         <p>Have fun!</p>
+            </div>
+         </div>
+
 
     <h2>Choose Grid Size</h2>
     <form id="sizePicker">
